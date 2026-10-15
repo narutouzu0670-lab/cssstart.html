@@ -1,0 +1,155 @@
+.p1 {
+    background-color: lightblue;
+}
+
+.p2 {
+    border: 3px solid red;
+}
+
+.p3 {
+    border-style: solid;
+    border-color: green;
+}
+
+.p4 {
+    border-radius: 12px;
+}
+
+.p5 {
+    border-style: dotted;
+}
+
+.p6 {
+    border-style: solid;
+    border-width: 6px;
+}
+
+.p7 {
+    position: relative;
+    bottom: 10px;
+}
+
+.p8 {
+    color: crimson;
+}
+
+.p9 {
+    cursor: pointer;
+}
+
+.p10 {
+    display: inline-block;
+}
+
+.p11 {
+    float: right;
+}
+
+.p12 {
+    font-family: Arial, sans-serif;
+}
+
+.p13 {
+    font-size: 22px;
+}
+
+.p14 {
+    font-style: italic;
+}
+
+.p15 {
+    font-weight: bold;
+}
+
+.p16 {
+    height: 60px;
+}
+
+.p17 {
+    position: relative;
+    left: 20px;
+}
+
+.p18 {
+    line-height: 2.5;
+}
+
+.p19 {
+    list-style: square;
+}
+
+.p20 {
+    margin: 20px;
+}
+
+.p21 {
+    max-width: 250px;
+}
+
+.p22 {
+    opacity: 0.4;
+}
+
+.p23 {
+    overflow: hidden;
+}
+
+.p24 {
+    padding: 15px;
+}
+
+.p25 {
+    position: relative;
+    top: 5px;
+}
+
+.p26 {
+    position: relative;
+    right: 20px;
+}
+
+.p27 {
+    text-align: center;
+}
+
+.p28 {
+    text-decoration: underline;
+}
+
+.p29 {
+    text-transform: uppercase;
+}
+
+.p30 {
+    position: relative;
+    top: 15px;
+}
+
+.p31 {
+    width: 50%;
+}
+
+.p32 {
+    position: relative;
+    z-index: 10;
+}
+
+.p33 {
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+.p34 {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.p35 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.6);
+}
+
+.content {
+    border: 2px solid black; 
+    margin-bottom: 20px; 
+    min-height: 60px; 
+    width: 100%; 
+    max-width: 500px;
+}
