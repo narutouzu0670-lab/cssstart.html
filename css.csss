@@ -1,3 +1,4 @@
+
 .p1 {
     background-color: lightblue;
 }
@@ -7,20 +8,21 @@
 }
 
 .p3 {
-    border-style: solid;
-    border-color: green;
+    border: 3px solid green;
 }
 
 .p4 {
+    border: 2px solid purple;
     border-radius: 12px;
 }
 
 .p5 {
-    border-style: dotted;
+    border: 3px dotted blue;
 }
 
 .p6 {
     border-style: solid;
+    border-color: orange;
     border-width: 6px;
 }
 
@@ -39,14 +41,16 @@
 
 .p10 {
     display: inline-block;
+    background-color: lightyellow;
 }
 
 .p11 {
     float: right;
+    background-color: lightgreen;
 }
 
 .p12 {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, serif;
 }
 
 .p13 {
@@ -63,6 +67,7 @@
 
 .p16 {
     height: 60px;
+    background-color: lightcyan;
 }
 
 .p17 {
@@ -76,6 +81,8 @@
 
 .p19 {
     list-style: square;
+    list-style-position: inside;
+    background-color: #eeeeee;
 }
 
 .p20 {
@@ -84,18 +91,26 @@
 
 .p21 {
     max-width: 250px;
+    background-color: lightyellow;
 }
 
 .p22 {
     opacity: 0.4;
+    background-color: blue;
+    color: white;
 }
 
 .p23 {
+    width: 180px;
+    height: 30px;
     overflow: hidden;
+    white-space: nowrap;
+    background-color: lightpink;
 }
 
 .p24 {
     padding: 15px;
+    background-color: lavender;
 }
 
 .p25 {
@@ -127,15 +142,18 @@
 
 .p31 {
     width: 50%;
+    background-color: lightblue;
 }
 
 .p32 {
     position: relative;
     z-index: 10;
+    background-color: lightyellow;
 }
 
 .p33 {
     background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 15px;
 }
 
 .p34 {
@@ -147,9 +165,19 @@
 }
 
 .content {
-    border: 2px solid black; 
-    margin-bottom: 20px; 
-    min-height: 60px; 
-    width: 100%; 
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    min-height: 60px;
+    width: 100%;
     max-width: 500px;
+    padding: 5px;
+    background-color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 20px;
+    color: #222;
 }
